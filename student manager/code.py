@@ -7,7 +7,7 @@ import os  # For file handling (checking existence, reading/writing)
 from PIL import Image, ImageTk  # For loading and displaying images in Tkinter
 
 # DATA FILE SETUP
-DATA_FILE = "studentMarks.txt"  # File where student records are stored
+DATA_FILE = "student manager/studentMarks.txt"  # File where student records are stored
 
 # Data utilities
 def load_students(path=DATA_FILE):  # Function to load student data from file
